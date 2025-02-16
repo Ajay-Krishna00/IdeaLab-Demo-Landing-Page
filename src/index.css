@@ -1,0 +1,52 @@
+.bulbContainer {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bulbImage {
+  z-index: 500;
+}
+.bulb {
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  width: 30px;
+  height: 30px;
+  background-color: rgba(255, 255, 0, 0.515);
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(255, 255, 0, 0.6);
+  transform: translate(-50%, -50%);
+  animation: glow 2.5s ease-in-out infinite;
+  z-index: -1;
+}
+
+@keyframes glow {
+  0% {
+    box-shadow: 0 0 20px rgba(255, 255, 0, 0.741);
+    /* this  */
+    transform: scale(1);
+  }
+
+  50% {
+    box-shadow: 0 0 20px rgb(255, 255, 0);
+    transform: scale(2.8);
+  }
+
+  100% {
+    box-shadow: 0 0 20px rgba(255, 255, 0, 0.781);
+    transform: scale(1);
+  }
+}
+.scroll {
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateY(300px);
+  transition: all 0.8s ease-in-out;
+}
+
+.animate {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateY(0);
+}
