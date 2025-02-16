@@ -1,8 +1,12 @@
-# React + Vite
+# IdeaLab Website
+Welcome to the Demo IdeaLab website! This website serves as the online portal for the AICTE IdeaLab at Model Engineering College, a space dedicated to fostering creativity, innovation, and collaboration. Whether you're a student, faculty, or an entrepreneur, IdeaLab provides you with all the resources needed to bring your ideas to life.
+## Features
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+  - Responsive Design: The website is fully responsive, optimized for various devices, including desktop, tablet, and mobile.
+  - Interactive Modal for Session Booking: Book a session at IdeaLab by filling out a simple form.
+  - Smooth Animations: With smooth scroll and animations, the website provides a dynamic user experience as you explore different sections.
+## Technologies Used
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+    - React: The website is built using React for a smooth, component-based structure.
+    - Chakra UI: Chakra UI is used for consistent and beautiful UI components, offering accessibility and responsiveness.
+    - IntersectionObserver API: This is used to trigger animations when elements come into view during scrolling, enhancing the user experience.
