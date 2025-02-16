@@ -7,6 +7,6 @@ Welcome to the Demo IdeaLab website! This website serves as the online portal fo
   - Smooth Animations: With smooth scroll and animations, the website provides a dynamic user experience as you explore different sections.
 ## Technologies Used
 
-    - React: The website is built using React for a smooth, component-based structure.
-    - Chakra UI: Chakra UI is used for consistent and beautiful UI components, offering accessibility and responsiveness.
-    - IntersectionObserver API: This is used to trigger animations when elements come into view during scrolling, enhancing the user experience.
+   - React: The website is built using React for a smooth, component-based structure.
+   - Chakra UI: Chakra UI is used for consistent and beautiful UI components, offering accessibility and responsiveness.
+   - IntersectionObserver API: This is used to trigger animations when elements come into view during scrolling, enhancing the user experience.
