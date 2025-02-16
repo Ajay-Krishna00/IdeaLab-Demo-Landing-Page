@@ -194,7 +194,7 @@ function App() {
           flexDirection={{ md: "row", base: "column" }}
           justifyContent={"center"}
           alignItems={"center"}
-          height={{ sm: "55vh", base: "90vh" }}
+          height={{ sm: "55vh", base: "98vh" }}
         >
           <Box
             display={"flex"}
