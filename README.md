@@ -1,5 +1,5 @@
 # IdeaLab Website
-Welcome to the Demo IdeaLab website! This website serves as the online portal for the AICTE IdeaLab at Model Engineering College, a space dedicated to fostering creativity, innovation, and collaboration. Whether you're a student, faculty, or an entrepreneur, IdeaLab provides you with all the resources needed to bring your ideas to life.
+Welcome to the Demo IdeaLab website! This website serves as the online portal for the AICTE IdeaLab at Model Engineering College, a space dedicated to fostering creativity, innovation, and collaboration. 
 ## Features
 
   - Responsive Design: The website is fully responsive, optimized for various devices, including desktop, tablet, and mobile.
