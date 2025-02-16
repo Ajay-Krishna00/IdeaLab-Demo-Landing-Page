@@ -155,7 +155,7 @@ function App() {
           flexDirection={{ md: "row", base: "column" }}
           justifyContent={"center"}
           alignItems={"center"}
-          height={"85vh"}
+          height={{md:"85vh",base:'95vh'}}
         >
           <Img src={cnclathe} w={"600px"} className="scroll" />
           <Box
@@ -194,7 +194,7 @@ function App() {
           flexDirection={{ md: "row", base: "column" }}
           justifyContent={"center"}
           alignItems={"center"}
-          height={{ sm: "55vh", base: "85vh" }}
+          height={{ sm: "55vh", base: "90vh" }}
         >
           <Box
             display={"flex"}
@@ -273,7 +273,7 @@ function App() {
       <Box
         bg="blue.700"
         color="white"
-        h={{ md: "45vh", sm: "55vh", base: "80vh" }}
+        h={{ md: "45vh", sm: "60vh", base: "90vh" }}
         display={"flex"}
         justifyContent={"center"}
         alignItems={"center"}
